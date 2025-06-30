@@ -1,5 +1,6 @@
 package com.mybank.app;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 /**
  * Hello world!
  */
@@ -52,15 +53,59 @@ public class ContaTerminal {
         this.saldo = saldo;
     }
 
+    public static int inputNumeroConta(Scanner scanner) {
+        int digito;
+        while (true) {
+            String input = scanner.next();
+            if (Pattern.matches("\\d{4}+", input)){
+                digito = Integer.parseInt(input);
+                break;
+            }
+            System.out.println ("Erro!(" + input + ") Por favor digite um número de 4 dígitos: ");
+
+        }
+        return digito;
+    }
+
+    public static String inputCodigoAgencia(Scanner scanner) {
+        String agencia;
+
+        while (true) {
+        String input = scanner.next();
+            if (Pattern.matches("\\d{4}+", input)){
+                agencia = input.substring(0, 3) + "-" + input.substring(3);
+                break;
+            }
+            System.out.println ("Erro!(" + input + ") Por favor digite 4 dígitos: ");
+
+        }
+        return agencia;
+    }
+
+    public static String inputSaldo(Scanner scanner) {
+        String saldo;
+
+        while (true) {
+        String input = scanner.next();
+            if (Pattern.matches("\\d+(\\.\\d{2})?", input)){
+                saldo = input.substring(0, 3) + "-" + input.substring(3);
+                break;
+            }
+            System.out.println ("Erro!(" + input + ") Por favor digite 4 dígitos: ");
+
+        }
+        return saldo;
+    }
 
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Bem vindo ao sistema JavaBanking.");
         System.out.println("Para criar sua conta, siga as intruções a seguir.");
         System.out.println("Por favor, digite o número da conta.");
-        int numeroDaConta = scanner.nextInt();
+        int numeroDaConta = inputNumeroConta(scanner);
         System.out.println("Digite o código da agência, no formato ###-#");
-        String agencia = scanner.next();
+        String agencia = inputCodigoAgencia(scanner);
         System.out.println("Digite seu nome completo.");
         String nomeCliente = scanner.next();
         System.out.println("Insira o seu saldo no formato ##.##");
