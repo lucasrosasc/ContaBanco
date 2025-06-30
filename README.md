@@ -28,9 +28,9 @@ A aplicação é executada no console e solicita ao usuário que insira dados co
 Antes de começar, garanta que você tenha as seguintes ferramentas instaladas em seu ambiente:
 
   - [Git](https://git-scm.com/)
-  - [Java Development Kit (JDK) 21](https://www.google.com/search?q=https://www.oracle.com/java/technologies/downloads/%23jdk21-windows) ou superior.
+  - [Java Development Kit (JDK) 21](https://www.oracle.com/java/technologies/downloads/) ou superior.
   - [Apache Maven 3.8+](https://maven.apache.org/download.cgi)
-  - [Docker](https://www.docker.com/products/docker-desktop/)
+  - [Docker](https://docs.docker.com/)
   - [Docker Compose](https://docs.docker.com/compose/install/) (geralmente já incluído no Docker Desktop)
 
 ## ⚙️ Como Começar
@@ -127,4 +127,4 @@ A flag `--rm` é adicionada para remover o contêiner automaticamente após a ex
 
 Feito com ❤️ por **Lucas Rosas**.
 
-[LinkedIn](https://www.google.com/search?q=URL_DO_SEU_LINKEDIN) | [GitHub](https://www.google.com/search?q=https://github.com/lucasrosasc)
+[LinkedIn](https://www.linkedin.com/in/lucas-rosas-da-cunha/) | [GitHub](https://github.com/lucasrosasc)
