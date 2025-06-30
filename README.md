@@ -1,7 +1,7 @@
 # Simulação de Caixa Eletrônico em Java
 
 <p align="center">
- <img src="https://media.giphy.com/media/VgFtTf52MvF53jM36a/giphy.gif" alt="Simulação de Caixa Eletrônico em Java"/>
+ <img src="./atm_picture.png" alt="Imagem de Caixa Eletrônico"/>
 </p>
 
 ## Este repositório apresenta uma simulação de um caixa eletrônico (ATM) desenvolvida com as seguintes tecnologias:
