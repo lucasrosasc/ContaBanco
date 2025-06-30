@@ -1,28 +1,10 @@
-# Simulação de Caixa Eletrônico em Java
+# 🏦 ContaBanco
 
 <p align="center">
  <img src="./atm_picture.png" alt="Imagem de Caixa Eletrônico"/>
 </p>
 
-## Este repositório apresenta uma simulação de um caixa eletrônico (ATM) desenvolvida com as seguintes tecnologias:
-
-- **Java**: Linguagem de programação principal.
-
-- **Maven**: Ferramenta para automação de build e gerenciamento de dependências.
-
-- **JUnit**: Framework para testes unitários, garantindo a robustez do código.
-
-- **Docker**: Para conteinerização da aplicação, facilitando o deploy e a execução em diferentes ambientes.
-
-Este projeto visa demonstrar a implementação de um sistema bancário básico, incluindo operações como depósito, saque e consulta de saldo, com foco em boas práticas de desenvolvimento e testes.
-
-Com certeza\! Um bom `README.md` é o cartão de visitas de qualquer projeto no seu portfólio. Com base na estrutura do seu projeto `ContaBanco` e nas nossas conversas, preparei uma documentação mais elaborada.
-
-Você pode copiar e colar o conteúdo abaixo diretamente no seu arquivo `README.md` no GitHub.
-
 -----
-
-# 🏦 ContaBanco
 
 Projeto de simulação de um terminal de conta bancária, desenvolvido como um exercício prático para reforçar os conceitos de Programação Orientada a Objetos, manipulação de entrada de dados e uso de ferramentas de build e conteinerização com Java.
 
