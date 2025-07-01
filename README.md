@@ -5,6 +5,10 @@
 </p>
 
 -----
+![Java](https://img.shields.io/badge/Java-21-blue?logo=openjdk)
+![Maven](https://img.shields.io/badge/Maven-3.9-red?logo=apachemaven)
+![Docker](https://img.shields.io/badge/Docker-blue?logo=docker)
+![JUnit5](https://img.shields.io/badge/JUnit-5-green?logo=junit5)
 
 Projeto de simulação de um terminal de conta bancária, desenvolvido como um exercício prático para reforçar os conceitos de Programação Orientada a Objetos, manipulação de entrada de dados e uso de ferramentas de build e conteinerização com Java.
 
